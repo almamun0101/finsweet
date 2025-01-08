@@ -35,3 +35,16 @@ li{
     font-size: 44px;
     font-weight: 700;
 }
+@mixin sub-tittle(){
+    color:$black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+@mixin p(){
+    color:$black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}

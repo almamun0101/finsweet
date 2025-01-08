@@ -1,0 +1,21 @@
+#celebrate{
+    padding-top: 64px;
+
+    .sub-tittle{
+        @include sub-tittle();
+    }
+    .tittle{
+        @include tittle();
+        padding-bottom: 16px;
+
+    }
+    
+    p{
+        @include p();
+        width: 512px;
+        padding-bottom: 16px;
+    }
+    
+
+
+}
