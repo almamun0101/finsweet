@@ -22,6 +22,7 @@ li {
 .navbar {
   background: #0D0D0D;
   color: #FFFFFF;
+  padding: 10px;
 }
 .navbar ul {
   padding-left: 48px;
@@ -80,4 +81,49 @@ li {
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 128px;
+}
+
+#about .sub-tittle {
+  padding-top: 128px;
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  font-size: 22px;
+}
+#about .tittle {
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+#about .card {
+  background: #FFF5EB;
+  text-align: left;
+}
+#about .card .text {
+  padding: 80px 0px 0px 80px;
+}
+#about .card .text .icon {
+  padding-bottom: 24px;
+}
+#about .card .text .h3 {
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #0D0D0D;
+}
+#about .card .text p {
+  width: 252px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 64px;
+}
+#about .card .bottom {
+  width: 100%;
+  height: 16px;
+  background: #FFD2A4;
 }/*# sourceMappingURL=style.css.map */
