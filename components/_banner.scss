@@ -1,0 +1,41 @@
+#banner {
+    background: url('/Images/banner.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .tittle {
+        padding-top: 128px;
+        color: $white;
+        h4 {
+            font-size: 16px;
+            font-weight: 700;
+            padding-bottom: 25px;
+        }
+
+        h1 {
+            width: 592px;
+            font-size: 64px;
+            line-height: 82px;
+            letter-spacing: -1%;
+            font-weight: 700;
+            padding-bottom: 23px;
+            font-family: "Roboto Condensed", serif;
+
+        }
+
+        button {
+            @include button();
+            
+        }
+
+        p {
+            width: 338px;
+            padding-top: 64px;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 128px;
+        }
+    }
+}

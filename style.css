@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto Condensed", serif;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  background: #0D0D0D;
+  color: #FFFFFF;
+}
+.navbar ul {
+  padding-left: 48px;
+  gap: 48px;
+}
+.navbar li a {
+  color: #FFFFFF;
+}
+.navbar button {
+  background: #FFD2A4;
+  color: #0D0D0D;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px 25px;
+}
+
+#banner {
+  background: url("/Images/banner.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner .tittle {
+  padding-top: 128px;
+  color: #FFFFFF;
+}
+#banner .tittle h4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+#banner .tittle h1 {
+  width: 592px;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -1%;
+  font-weight: 700;
+  padding-bottom: 23px;
+  font-family: "Roboto Condensed", serif;
+}
+#banner .tittle button {
+  background: #FFD2A4;
+  color: #0D0D0D;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px 25px;
+}
+#banner .tittle p {
+  width: 338px;
+  padding-top: 64px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 128px;
+}/*# sourceMappingURL=style.css.map */

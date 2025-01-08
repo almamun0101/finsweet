@@ -1,0 +1,16 @@
+.navbar{
+    background: $black;
+    color: $white;
+    ul{
+        padding-left: 48px;
+        gap: 48px;
+    }
+    li{
+        a{
+            color:$white;
+        }
+    }
+    button{
+        @include button();
+    }
+}
