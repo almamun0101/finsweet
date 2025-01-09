@@ -1,5 +1,5 @@
 #love {
-    padding-top: 128px;
+  
 
     .head {
         .sub-tittle {
@@ -26,15 +26,39 @@
         .group {
             .group_img1 {
                 margin-bottom: 120px;
-                
+
             }
+
             .group_img2 {
                 padding: 100px 20px 20px 20px;
-                
+
             }
+
             .group_img3 {
                 margin-bottom: 120px;
             }
+        }
+
+
+    }
+
+    .bottom {
+        padding-bottom: 128px;
+
+        .sub-tittle {
+            @include sub-tittle();
+        }
+
+        .tittle {
+            @include tittle();
+            padding-bottom: 16px;
+
+        }
+
+        p {
+            @include p();
+            width: 512px;
+            padding-bottom: 16px;
         }
     }
 

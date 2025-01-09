@@ -1,0 +1,33 @@
+#benefits {
+    background: $primary;
+
+    .head {
+        h3 {
+            @include sub-tittle();
+
+        }
+
+        h2 {
+            @include tittle();
+            padding-bottom: 64px;
+
+        }
+
+        .group {
+            .group_img {
+                position: relative;
+
+            }
+
+            h4 {
+                position: absolute;
+                top: 10px;
+            }
+
+
+
+
+
+        }
+    }
+}
