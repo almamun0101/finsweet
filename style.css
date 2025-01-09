@@ -95,6 +95,7 @@ li {
   text-align: center;
   font-size: 44px;
   font-weight: 700;
+  margin: 0 auto;
   margin-bottom: 64px;
 }
 #about .card {
@@ -143,6 +144,7 @@ li {
   text-align: center;
   font-size: 44px;
   font-weight: 700;
+  margin: 0 auto;
 }
 #love .head p {
   color: #0D0D0D;
@@ -187,6 +189,7 @@ li {
   text-align: center;
   font-size: 44px;
   font-weight: 700;
+  margin: 0 auto;
   padding-bottom: 16px;
 }
 #love .bottom p {
@@ -201,6 +204,7 @@ li {
 
 #benefits {
   background: #FFD2A4;
+  padding-bottom: 128px;
 }
 #benefits .head h3 {
   color: #0D0D0D;
@@ -214,12 +218,49 @@ li {
   text-align: center;
   font-size: 44px;
   font-weight: 700;
+  margin: 0 auto;
+  width: 432px;
   padding-bottom: 64px;
 }
-#benefits .head .group .group_img {
+#benefits .group .group_img {
   position: relative;
 }
-#benefits .head .group h4 {
+#benefits .group .group_img:hover .text1 {
+  opacity: 0;
+}
+#benefits .group .group_img:hover .text2 {
+  opacity: 1;
+}
+#benefits .group .text1 {
   position: absolute;
-  top: 10px;
+  bottom: 0px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+#benefits .group .text2 {
+  position: absolute;
+  bottom: 0px;
+  color: #FFFFFF;
+  padding: 10px;
+  opacity: 0;
+}
+
+#join .head h3 {
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 128px 0px 20px 0px;
+}
+#join .head h2 {
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 545px;
+}
+#join .content {
+  margin-top: 64px;
+  background: #FFF5EB;
 }/*# sourceMappingURL=style.css.map */

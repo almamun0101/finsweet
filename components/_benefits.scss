@@ -1,5 +1,6 @@
 #benefits {
     background: $primary;
+    padding-bottom: 128px;
 
     .head {
         h3 {
@@ -9,25 +10,42 @@
 
         h2 {
             @include tittle();
+            width: 432px;
+
             padding-bottom: 64px;
 
         }
+    }
 
-        .group {
-            .group_img {
-                position: relative;
-
+    .group {
+        .group_img {
+            position: relative;
+            &:hover{
+                .text1{
+                    opacity: 0;
+                }
+                .text2{
+                    opacity: 1;
+                }
             }
-
-            h4 {
-                position: absolute;
-                top: 10px;
-            }
-
-
-
-
 
         }
+
+        .text1 {
+            position: absolute;
+            bottom: 0px;
+            color: $white;
+            padding: 10px;
+
+        }
+
+        .text2 {
+            position: absolute;
+            bottom: 0px;
+            color: $white;
+            padding: 10px;
+            opacity: 0;
+        }
+        
     }
 }

@@ -1,0 +1,16 @@
+#join{
+    .head{
+        h3{
+            @include sub-tittle();
+        }
+        h2{
+            @include tittle();
+            width: 545px;
+        }
+    }
+    .content{
+        margin-top: 64px;
+        background: $light;
+
+    }
+}
