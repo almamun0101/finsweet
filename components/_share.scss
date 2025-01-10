@@ -1,0 +1,53 @@
+#share {
+    padding-bottom: 128px;
+    .head {
+        padding: 128px 0px 64px 0px;
+
+        h3 {
+            @include sub-tittle();
+        }
+
+        h2 {
+            @include tittle();
+        }
+    }
+
+    .card {
+        background: $light;
+        .content {
+            padding: 48px 32px 32px 32px;
+            width: 302px;
+
+            h6 {
+                color: #A54E2B;
+            }
+
+            h5 {
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: -1px;
+                padding-bottom: 16px;
+                padding-top: 16px;
+
+            }
+
+            .by {
+                padding-top: 48px;
+                h4{
+                    font-size: 16px;
+                }
+                
+            }
+
+        }
+        &:hover{
+            .bottom{
+                opacity: 1;
+            }
+        }
+        .bottom{
+            @include bottom_line();
+            opacity: 0;
+        }
+    }
+}

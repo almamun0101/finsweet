@@ -343,4 +343,57 @@ li {
   width: 100%;
   height: 16px;
   background: #FFD2A4;
+}
+
+#share {
+  padding-bottom: 128px;
+}
+#share .head {
+  padding: 128px 0px 64px 0px;
+}
+#share .head h3 {
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 128px 0px 20px 0px;
+}
+#share .head h2 {
+  color: #0D0D0D;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+#share .card {
+  background: #FFF5EB;
+}
+#share .card .content {
+  padding: 48px 32px 32px 32px;
+  width: 302px;
+}
+#share .card .content h6 {
+  color: #A54E2B;
+}
+#share .card .content h5 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -1px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+#share .card .content .by {
+  padding-top: 48px;
+}
+#share .card .content .by h4 {
+  font-size: 16px;
+}
+#share .card:hover .bottom {
+  opacity: 1;
+}
+#share .card .bottom {
+  width: 100%;
+  height: 16px;
+  background: #FFD2A4;
+  opacity: 0;
 }/*# sourceMappingURL=style.css.map */
