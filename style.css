@@ -245,6 +245,9 @@ li {
   opacity: 0;
 }
 
+#join {
+  padding-bottom: 208px;
+}
 #join .head h3 {
   color: #0D0D0D;
   text-align: center;
@@ -263,4 +266,81 @@ li {
 #join .content {
   margin-top: 64px;
   background: #FFF5EB;
+}
+#join .content .text {
+  padding-left: 89px;
+  padding-top: 61px;
+}
+#join .content .text h4 {
+  font-size: 14px;
+  padding-bottom: 16px;
+  color: red;
+}
+#join .content .text h5 {
+  width: 210px;
+}
+#join .content .text p {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  width: 256px;
+}
+#join .content .text ul li {
+  gap: 20px;
+  padding-bottom: 20px;
+}
+#join .content .text ul li img {
+  height: 30px;
+}
+#join .content .text ul li .venu {
+  width: 137px;
+}
+#join .content .text button {
+  background: #0D0D0D;
+  color: #FFD2A4;
+  padding: 15px 50px;
+  border-radius: 12px;
+}
+
+#want .banner {
+  background: url("/Images/Background.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 128px 366px;
+}
+#want .content {
+  background: #FFFFFF;
+  width: 768px;
+}
+#want .content .text {
+  padding: 72px 48px;
+}
+#want .content .text h2 {
+  width: 300px;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", serif;
+}
+#want .content .text p {
+  width: 302px;
+  opacity: 0.7;
+}
+#want .content .text button {
+  background: #FFD2A4;
+  color: #0D0D0D;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px 25px;
+  padding: 15px 30px;
+}
+#want .content .bottom {
+  width: 100%;
+  height: 16px;
+  background: #FFD2A4;
 }/*# sourceMappingURL=style.css.map */

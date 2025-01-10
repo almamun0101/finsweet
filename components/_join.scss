@@ -1,16 +1,65 @@
-#join{
-    .head{
-        h3{
+#join {
+    padding-bottom: 208px;
+    .head {
+        h3 {
             @include sub-tittle();
         }
-        h2{
+
+        h2 {
             @include tittle();
             width: 545px;
         }
     }
-    .content{
+
+    .content {
         margin-top: 64px;
         background: $light;
+        
+
+        .text {
+            padding-left: 89px;
+            padding-top: 61px;
+            
+
+            h4 {
+                font-size: 14px;
+                padding-bottom: 16px;
+                color: red;
+            }
+
+            h5 {
+                width: 210px;
+            }
+
+            p {
+                padding-top: 16px;
+                padding-bottom: 32px;
+                width: 256px;
+
+            }
+
+            ul {
+                li {
+                    gap: 20px;
+                    padding-bottom: 20px;
+
+                    img {
+                        height: 30px;
+                    }
+
+                    .venu {
+                        width: 137px;
+                    }
+                }
+            }
+
+            button {
+               background: $black;
+               color: $primary;
+               padding: 15px 50px;
+               border-radius: 12px;
+            }
+        }
 
     }
 }
