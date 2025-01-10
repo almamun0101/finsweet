@@ -1,0 +1,23 @@
+#footer {
+    background: #161722;
+    padding-top: 64px;
+    color: $white;
+
+    .logo {
+        padding-bottom: 16px;
+
+    }
+
+    p {
+        padding-bottom: 32px;
+    }
+
+    .links {
+        ul {
+            li {
+                padding: 12px;
+                opacity: .8;
+            }
+        }
+    }
+}

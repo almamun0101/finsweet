@@ -396,4 +396,20 @@ li {
   height: 16px;
   background: #FFD2A4;
   opacity: 0;
+}
+
+#footer {
+  background: #161722;
+  padding-top: 64px;
+  color: #FFFFFF;
+}
+#footer .logo {
+  padding-bottom: 16px;
+}
+#footer p {
+  padding-bottom: 32px;
+}
+#footer .links ul li {
+  padding: 12px;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
