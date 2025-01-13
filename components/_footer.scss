@@ -20,4 +20,15 @@
             }
         }
     }
+    .search{
+        .email_box{
+            width: 512px;
+            padding: 10px;
+            border-radius: 12px;
+
+        }
+        button{
+            @include button();
+        }
+    }
 }

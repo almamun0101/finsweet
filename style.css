@@ -412,4 +412,18 @@ li {
 #footer .links ul li {
   padding: 12px;
   opacity: 0.8;
+}
+#footer .search .email_box {
+  width: 512px;
+  padding: 10px;
+  border-radius: 12px;
+}
+#footer .search button {
+  background: #FFD2A4;
+  color: #0D0D0D;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px 25px;
 }/*# sourceMappingURL=style.css.map */
