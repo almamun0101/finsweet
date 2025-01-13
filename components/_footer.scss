@@ -13,6 +13,8 @@
     }
 
     .links {
+        text-align: center;
+
         ul {
             li {
                 padding: 12px;
@@ -20,14 +22,16 @@
             }
         }
     }
-    .search{
-        .email_box{
+
+    .search {
+        .email_box {
             width: 512px;
             padding: 10px;
             border-radius: 12px;
 
         }
-        button{
+
+        button {
             @include button();
         }
     }
