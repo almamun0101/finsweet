@@ -31,6 +31,9 @@ li {
 .navbar li a {
   color: #FFFFFF;
 }
+.navbar li a:hover {
+  color: #FFD2A4;
+}
 .navbar button {
   background: #FFD2A4;
   color: #0D0D0D;
@@ -39,6 +42,11 @@ li {
   border: 1px solid transparent;
   border-radius: 12px;
   padding: 15px 25px;
+}
+.navbar button:hover {
+  background: #0D0D0D;
+  color: #FFD2A4;
+  border: 1px solid #FFD2A4;
 }
 
 #banner {
@@ -74,6 +82,11 @@ li {
   border: 1px solid transparent;
   border-radius: 12px;
   padding: 15px 25px;
+}
+#banner .tittle button:hover {
+  background: #0D0D0D;
+  color: #FFD2A4;
+  border: 1px solid #FFD2A4;
 }
 #banner .tittle p {
   width: 338px;
@@ -116,14 +129,16 @@ li {
   color: #0D0D0D;
 }
 #about .card .text p {
-  width: 252px;
-  padding-top: 8px;
-  padding-bottom: 64px;
   color: #0D0D0D;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   margin: 0 auto;
+  margin: 0;
+  width: 252px;
+  padding-top: 8px;
+  padding-bottom: 64px;
+  text-align: left;
 }
 #about .card .bottom {
   width: 100%;
@@ -165,6 +180,10 @@ li {
   border-radius: 12px;
   padding: 15px 25px;
 }
+#love .head button:hover {
+  background: #0D0D0D;
+  color: #FFD2A4;
+}
 #love .head .group .group_img1 {
   margin-bottom: 120px;
 }
@@ -200,6 +219,9 @@ li {
   margin: 0 auto;
   width: 512px;
   padding-bottom: 16px;
+}
+#love .bottom a {
+  color: #0D0D0D;
 }
 
 #benefits {
@@ -295,10 +317,17 @@ li {
   width: 137px;
 }
 #join .content .text button {
+  background: #FFD2A4;
+  color: #0D0D0D;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px 25px;
+}
+#join .content .text button:hover {
   background: #0D0D0D;
   color: #FFD2A4;
-  padding: 15px 50px;
-  border-radius: 12px;
 }
 
 #want .banner {
@@ -338,6 +367,10 @@ li {
   border-radius: 12px;
   padding: 15px 25px;
   padding: 15px 30px;
+}
+#want .content .text button:hover {
+  background: #0D0D0D;
+  color: #FFD2A4;
 }
 #want .content .bottom {
   width: 100%;

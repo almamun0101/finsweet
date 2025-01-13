@@ -32,6 +32,10 @@
 
             button {
                 @include button();
+                &:hover {
+                    background: $black;
+                    color: $primary;
+                }
                 padding: 15px 30px;
             }
 
@@ -40,7 +44,9 @@
 
         .bottom {
             @include bottom_line();
-        }
 
+           
+        }
     }
+
 }

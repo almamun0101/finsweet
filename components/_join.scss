@@ -1,5 +1,6 @@
 #join {
     padding-bottom: 208px;
+
     .head {
         h3 {
             @include sub-tittle();
@@ -14,12 +15,12 @@
     .content {
         margin-top: 64px;
         background: $light;
-        
+
 
         .text {
             padding-left: 89px;
             padding-top: 61px;
-            
+
 
             h4 {
                 font-size: 14px;
@@ -54,10 +55,12 @@
             }
 
             button {
-               background: $black;
-               color: $primary;
-               padding: 15px 50px;
-               border-radius: 12px;
+                @include button();
+
+                &:hover {
+                    background: $black;
+                    color: $primary;
+                }
             }
         }
 

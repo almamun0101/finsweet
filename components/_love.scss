@@ -20,6 +20,10 @@
         button {
             margin-top: 56px;
             @include button();
+            &:hover {
+                background: $black;
+                color: $primary;
+            }
 
         }
 
@@ -59,6 +63,9 @@
             @include p();
             width: 512px;
             padding-bottom: 16px;
+        }
+        a{
+            color: $black;
         }
     }
 

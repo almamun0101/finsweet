@@ -9,9 +9,19 @@
     li{
         a{
             color:$white;
+            &:hover {
+           
+                color: $primary;
+            }
         }
+       
     }
     button{
         @include button();
+        &:hover {
+            background: $black;
+            color: $primary;
+            border: 1px solid $primary;
+        }
     }
 }
