@@ -27,12 +27,13 @@
         .email_box {
             width: 512px;
             padding: 10px;
-            border-radius: 12px;
+            border-radius: 12px 0px 0px 12px;
 
         }
 
         button {
             @include button();
+            border-radius: 0px 12px 12px 0px;
         }
     }
 }

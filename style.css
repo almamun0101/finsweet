@@ -111,24 +111,24 @@ li {
   margin: 0 auto;
   margin-bottom: 64px;
 }
-#about .card {
+#about .content .card {
   background: #FFF5EB;
   text-align: left;
 }
-#about .card .text {
+#about .content .card .text {
   padding: 80px 0px 0px 80px;
 }
-#about .card .text .icon {
+#about .content .card .text .icon {
   padding-bottom: 24px;
 }
-#about .card .text .h3 {
+#about .content .card .text .h3 {
   font-size: 32px;
   line-height: 44px;
   letter-spacing: -1px;
   font-weight: 700;
   color: #0D0D0D;
 }
-#about .card .text p {
+#about .content .card .text p {
   color: #0D0D0D;
   text-align: center;
   font-size: 16px;
@@ -140,7 +140,7 @@ li {
   padding-bottom: 64px;
   text-align: left;
 }
-#about .card .bottom {
+#about .content .card .bottom {
   width: 100%;
   height: 16px;
   background: #FFD2A4;
@@ -253,6 +253,9 @@ li {
 #benefits .group .group_img:hover .text2 {
   opacity: 1;
 }
+#benefits .group .group_img .benefits_img {
+  width: 100%;
+}
 #benefits .group .text1 {
   position: absolute;
   bottom: 0px;
@@ -328,6 +331,9 @@ li {
 #join .content .text button:hover {
   background: #0D0D0D;
   color: #FFD2A4;
+}
+#join .content .side_img {
+  width: 100%;
 }
 
 #want .banner {
@@ -452,7 +458,7 @@ li {
 #footer .search .email_box {
   width: 512px;
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 12px 0px 0px 12px;
 }
 #footer .search button {
   background: #FFD2A4;
@@ -462,4 +468,5 @@ li {
   border: 1px solid transparent;
   border-radius: 12px;
   padding: 15px 25px;
+  border-radius: 0px 12px 12px 0px;
 }/*# sourceMappingURL=style.css.map */

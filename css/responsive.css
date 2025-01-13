@@ -1,0 +1,154 @@
+@media (min-width: 320px) and (max-width: 576px) {
+    .navbar button {
+        padding: 10px 20px;
+    }
+    .navbar ul {
+        gap: 20px;
+    }
+    #banner .tittle h4 {
+        padding-bottom: 10px;
+    }
+
+    #banner .tittle h1 {
+        width: auto;
+        font-size: 35px;
+        line-height: 40px;
+        letter-spacing: -1%;
+        padding-bottom: 10px;
+    }
+
+    #banner .tittle p {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    #about .sub-tittle {
+        font-size: 16px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #about .tittle {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 64px;
+    }
+    #about .content .card .text {
+        padding: 50px 0px 0px 20px;
+    }
+    #about .content .card .text p {
+        width: auto;
+    }
+
+    #love .head .sub-tittle {
+        padding: 50px 0px 0px 0px;
+
+    }
+
+    #love .head p {
+        width: auto;
+    }
+
+    #love .head button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #love .head .tittle {
+        font-size: 35px;
+    }
+
+    #love .head .group .group_img1 {
+        margin-bottom: 0px;
+    }
+
+    #love .head .group .group_img2 {
+        padding: 0px;
+    }
+
+    #love .head .group .group_img3 {
+        margin-bottom: 0px;
+    }
+
+    #love .bottom .sub-tittle {
+        padding: 50px 0px 0px 0px;
+    }
+
+    #love .bottom p {
+        width: auto;
+        padding-bottom: 16px;
+    }
+
+    #love .bottom {
+        padding-bottom: 50px;
+    }
+
+    #benefits .head h3 {
+        padding: 60px 0px 0px 0px;
+    }
+
+    #benefits .head h2 {
+        width: auto;
+    }
+
+    #benefits .group .group_img {
+        width: 100%;
+    }
+
+    .row>* {
+        width: auto;
+    }
+
+    #join .head h3 {
+        padding: 60px 0px 0px 0px;
+    }
+
+    #join .head h2 {
+        width: auto;
+        font-size: 30px;
+    }
+
+    #join .content .text p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    #join {
+        padding-bottom: 108px;
+    }
+
+    #want .banner {
+        padding: 100px 30px;
+    }
+
+    #want .content .text h2 {
+        width: 100%;
+
+    }
+
+    #want .content {
+        background: #FFFFFF;
+        width: auto;
+    }
+
+    #want .content .text {
+        padding: 30px 30px;
+    }
+
+    #share .head {
+        padding: 10px 0px 64px 0px;
+    }
+
+    #share .head h3 {
+        padding: 60px 0px 0px 0px;
+    }
+    #share .card .content {
+        padding: 48px 32px 32px 32px;
+        width: auto;
+    }
+
+    #footer {
+        padding-bottom: 50px;
+    
+    }
+}
